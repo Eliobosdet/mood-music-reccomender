@@ -1,0 +1,54 @@
+# --- Ambienti Python ---
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- File temporanei / di log ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Dataset e file di output ---
+/data/
+/datasets/
+/raw_data/
+/processed_data/
+*.zip
+*.csv
+*.parquet
+*.h5
+*.wav
+*.mp3
+*.flac
+
+# --- Notebook temporanei ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Modelli addestrati ---
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# --- File generati ---
+/outputs/
+/results/
+/figures/
+
+# --- Config locali ---
+config_local.json
+secrets.json
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Ambiente Jupyter ---
+.jupyter/
